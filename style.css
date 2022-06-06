@@ -1,0 +1,60 @@
+body {
+  background-color: #56B395;
+  font-size: 44px
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h2 {
+  margin: 0;
+}
+
+.break-session-length {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  font-size: 28px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+div > button {
+  color: white;
+  background-color: #316655;
+}
+
+div button:nth-child(2) {
+  color: #000;
+  background-color: #6EE6C0;
+}
+
+strong {
+  margin: 0 8px;
+}
+
+.timer {
+  border: 2px solid #B6EAD9;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 10px;
+}
+
+.timer-wrapper > button {
+  margin-left: 20px
+}
+
+* {
+  color:white;
+}
